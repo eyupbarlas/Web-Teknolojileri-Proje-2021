@@ -1,5 +1,5 @@
 # Web-Teknolojileri-Proje-2021
-### Web Teknolojileri Dersi Proje Ödevi 2021
+### Sakarya Üniversitesi Web Teknolojileri Dersi Proje Ödevi 2021
 ----------------------------------------------
 #### Gakgoşlar Diyarı
 
