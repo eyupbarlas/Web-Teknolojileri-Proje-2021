@@ -11,5 +11,5 @@ Gakgoşlar Diyarı ,sayfa sahibini(Eyüp Barlas) ve Elazığ şehrini tanıtan b
 >  
 >> Sakarya Üniversitesi: <eyup.barlas@ogr.sakarya.edu.tr>    Kişisel: <eyupbarlas2134@gmail.com>
 
-> Eyüp Barlas'ın kişisel projelerine ulaşmak için [tıklayınız](https://github.com/eyupbarlas/BzzmansProjects "Bzzmans Projects")
+> Eyüp Barlas'ın kişisel projelerine ulaşmak için [tıklayınız](https://github.com/eyupbarlas/BzzmansProjects "Bzzmans Projects").
 
