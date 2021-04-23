@@ -7,6 +7,11 @@ Gakgoşlar Diyarı ,sayfa sahibini(Eyüp Barlas) ve Elazığ şehrini tanıtan b
 
 Proje kodlarına ulaşmak için [tıklayınız](https://github.com/eyupbarlas/Web-Teknolojileri-Proje-2021/tree/main/Project "Gakgoşlar Diyarı").
 
+> **Kişisel Bilgiler:**
+> 
+>> Eyüp Barlas
+>> B201210391 1A Grubu 
+
 > **Email Adresleri:**
 >  
 >> Sakarya Üniversitesi: <eyup.barlas@ogr.sakarya.edu.tr>    
