@@ -1,0 +1,15 @@
+nav{
+    margin-top:5px;
+}
+#icerik{
+    margin-top:100px;
+}
+body{
+    background-color:orange;
+    font-family: "Times New Roman";
+    font-weight: bold;
+}
+#content-col{
+    border-radius:50px;
+    padding:50px;
+}
