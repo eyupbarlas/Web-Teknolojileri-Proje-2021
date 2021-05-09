@@ -41,22 +41,15 @@
     <div align="center" class="row">
         <div class="col-1"></div>
         <div id="content-col" style="background-color:#f8bf4f" class="col">
-            <form action="giris-redirect.php" method="post">
-            <table>
-                <tr>
-                    <td>Kullanıcı Adı:</td>
-                    <td><input name="kullanici_adi" type="email"></td>
-                </tr>
-                <tr>
-                    <td>Şifre:</td>
-                    <td><input name="sifre" type="password"></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td><input type="submit"></td>
-                </tr>
-            </form>
-            </table>
+            <?php
+            if($_POST['kullanici_adi'] =='b1812100001@sakarya.edu.tr' && $_POST['sifre'] == 'b1812100001'){
+                echo "<p>Kullanıcı adınız ve şifreniz doğru.</p> <p>Anasayfaya yönlendiriliyorsunuz.</p>";
+                header("refresh:3;url=index.php");
+            } else{
+                echo "<p>Giriş bilgileriniz yanlış.</p> <p>Giriş sayfasına yönlendiriliyorsunuz.</p>";
+                header("refresh:3;url=girisyap.php");
+            }
+            ?>
         </div>
         <div class="col-1"></div>
     </div>
