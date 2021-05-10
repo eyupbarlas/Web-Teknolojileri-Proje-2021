@@ -9,6 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <script src="js/iletisim.js"></script>
 </head>
 <body>
 <nav>
@@ -41,43 +42,133 @@
     <div align="center" class="row">
         <div class="col-1"></div>
         <div id="content-col" style="background-color:#f8bf4f" class="col">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
-            eu augue sit amet diam pretium iaculis eu a mi. Sed vitae nisl auctor,
-            faucibus neque vitae, congue ipsum. Interdum et malesuada fames ac ante
-            ipsum primis in faucibus. Mauris in velit suscipit, bibendum lacus et,
-            egestas felis. Nunc a mattis urna, quis elementum ante. Curabitur
-            condimentum tincidunt metus, eu ornare nunc congue in. Proin tristique,
-            odio sit amet posuere facilisis, urna risus rutrum mi, ut pharetra urna
-            enim nec urna. Vestibulum non leo non orci porttitor sollicitudin. Sed
-            viverra urna sed cursus suscipit. Vestibulum aliquet, arcu eu porta porttitor,
-            mauris mi dapibus massa, sit amet ullamcorper lacus sem et sapien. Nullam id rhoncus
-            ante, quis pellentesque urna. Phasellus quis arcu bibendum, sodales mauris quis,
-            eleifend nulla. Duis eu mattis lorem. Mauris faucibus arcu sed tempus elementum.
+            <form name="iletisim-formu" action="iletisim-redirect.php" method="post" onsubmit="return kontrol()">
+                <h1>Aşağıdaki formu doldurarak iletişime geçebilirsiniz.</h1>
+                <hr>
+                <table id="iletisim-tablo">
+                    <tr>
+                        <td class="etiket">İsminiz:</td>
+                        <td><input name="isim" type="text"></td>
+                    </tr>
 
-            Quisque aliquam a augue eget fringilla. Donec sed congue massa. Cras ut
-            eleifend sapien. Curabitur vel tortor lacinia, hendrerit turpis sit amet,
-            ullamcorper erat. Nullam vestibulum elit ipsum, vitae hendrerit sem
-            fermentum a. Vestibulum pulvinar scelerisque quam, in bibendum metus
-            convallis sit amet. Donec ultrices vehicula lectus, ac euismod nisi
-            fringilla et. Vivamus efficitur leo et nunc blandit, vitae maximus
-            orci accumsan. Sed scelerisque dolor vitae enim vestibulum, ut malesuada
-            justo egestas. Nullam euismod feugiat libero, eu porta mauris feugiat
-            quis. Ut quis justo ultrices, pellentesque quam non, volutpat odio.
-            Pellentesque nec scelerisque erat.
-
-            Maecenas bibendum ex metus, eu pellentesque dolor elementum vitae.
-            Sed rutrum neque quis quam mattis, vel molestie purus eleifend.
-            Nam at ipsum vel augue auctor sollicitudin. Aliquam suscipit augue
-            purus, non ultricies turpis malesuada nec. Vestibulum non mattis
-            tellus. Donec sodales justo ac dui accumsan, eu eleifend sapien
-            faucibus. Sed quis magna at nunc blandit maximus. Suspendisse ex
-            velit, imperdiet non augue id, convallis gravida nibh. Quisque
-            vulputate sapien sed consectetur pharetra. Vivamus convallis nunc
-            felis, ut imperdiet velit aliquam eget. Nam finibus tellus ut
-            ornare viverra. In purus dui, vehicula at pellentesque sit amet,
-            faucibus at felis. Ut maximus risus facilisis arcu maximus commodo.
-            Proin nulla orci, maximus eu vehicula vel, scelerisque non leo.
-            Pellentesque mollis pellentesque erat, vitae pulvinar sapien gravida at.
+                    <tr>
+                        <td class="etiket">Mail adresiniz:</td>
+                        <td><input name="mail" type="text"></td>
+                    </tr>
+                    <tr>
+                        <td class="etiket">Yaşadığınız il:</td>
+                        <td>
+                            <select name="sehir">
+                                <option value="">İkametgah İli</option>
+                                <option value="34">İstanbul</option>
+                                <option value="6">Ankara</option>
+                                <option value="35">İzmir</option>
+                                <option value="1">Adana</option>
+                                <option value="2">Adıyaman</option>
+                                <option value="3">Afyonkarahisar</option>
+                                <option value="4">Ağrı</option>
+                                <option value="68">Aksaray</option>
+                                <option value="5">Amasya</option>
+                                <option value="7">Antalya</option>
+                                <option value="75">Ardahan</option>
+                                <option value="8">Artvin</option>
+                                <option value="9">Aydın</option>
+                                <option value="10">Balıkesir</option>
+                                <option value="74">Bartın</option>
+                                <option value="72">Batman</option>
+                                <option value="69">Bayburt</option>
+                                <option value="11">Bilecik</option>
+                                <option value="12">Bingöl</option>
+                                <option value="13">Bitlis</option>
+                                <option value="14">Bolu</option>
+                                <option value="15">Burdur</option>
+                                <option value="16">Bursa</option>
+                                <option value="17">Çanakkale</option>
+                                <option value="18">Çankırı</option>
+                                <option value="19">Çorum</option>
+                                <option value="20">Denizli</option>
+                                <option value="21">Diyarbakır</option>
+                                <option value="81">Düzce</option>
+                                <option value="22">Edirne</option>
+                                <option value="23">Elazığ</option>
+                                <option value="24">Erzincan</option>
+                                <option value="25">Erzurum</option>
+                                <option value="26">Eskişehir</option>
+                                <option value="27">Gaziantep</option>
+                                <option value="28">Giresun</option>
+                                <option value="29">Gümüşhane</option>
+                                <option value="30">Hakkâri</option>
+                                <option value="31">Hatay</option>
+                                <option value="76">Iğdır</option>
+                                <option value="32">Isparta</option>
+                                <option value="46">Kahramanmaraş</option>
+                                <option value="78">Karabük</option>
+                                <option value="70">Karaman</option>
+                                <option value="36">Kars</option>
+                                <option value="37">Kastamonu</option>
+                                <option value="38">Kayseri</option>
+                                <option value="71">Kırıkkale</option>
+                                <option value="39">Kırklareli</option>
+                                <option value="40">Kırşehir</option>
+                                <option value="79">Kilis</option>
+                                <option value="41">Kocaeli</option>
+                                <option value="42">Konya</option>
+                                <option value="43">Kütahya</option>
+                                <option value="44">Malatya</option>
+                                <option value="45">Manisa</option>
+                                <option value="47">Mardin</option>
+                                <option value="33">Mersin</option>
+                                <option value="48">Muğla</option>
+                                <option value="49">Muş</option>
+                                <option value="50">Nevşehir</option>
+                                <option value="51">Niğde</option>
+                                <option value="52">Ordu</option>
+                                <option value="80">Osmaniye</option>
+                                <option value="53">Rize</option>
+                                <option value="54">Sakarya</option>
+                                <option value="55">Samsun</option>
+                                <option value="56">Siirt</option>
+                                <option value="57">Sinop</option>
+                                <option value="58">Sivas</option>
+                                <option value="73">Şırnak</option>
+                                <option value="59">Tekirdağ</option>
+                                <option value="60">Tokat</option>
+                                <option value="61">Trabzon</option>
+                                <option value="62">Tunceli</option>
+                                <option value="63">Şanlıurfa</option>
+                                <option value="64">Uşak</option>
+                                <option value="65">Van</option>
+                                <option value="77">Yalova</option>
+                                <option value="66">Yozgat</option>
+                                <option value="67">Zonguldak</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="etiket">Cinsiyetiniz:</td>
+                        <td>
+                            Erkek <input type="radio" name="cinsiyet" value="Erkek">
+                            Kadın <input type="radio" name="cinsiyet" value="Kadın">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="etiket">Mesajınız:</td>
+                        <td>
+                            <textarea name="mesaj"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="etiket">Kullanıcı sözleşmesini<br>okudum.</td>
+                        <td>
+                            <input id="onay" type="checkbox" name="onay">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><input type="submit" value="Giriş Yap"> <button onclick="temizle()" type="button">Temizle</button></td>
+                    </tr>
+            </form>
+            </table>
         </div>
         <div class="col-1"></div>
     </div>

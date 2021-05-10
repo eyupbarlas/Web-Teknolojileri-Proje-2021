@@ -29,7 +29,7 @@
             <a class="nav-link" href="ilgialanlarim.php">İlgi Alanlarım</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link active" href="girisyap.php">Giriş Yap</a>
+            <a class="nav-link" href="girisyap.php">Giriş Yap</a>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="iletisim.php">İletişim</a>
@@ -41,24 +41,11 @@
     <div align="center" class="row">
         <div class="col-1"></div>
         <div id="content-col" style="background-color:#f8bf4f" class="col">
-            <form action="giris-redirect.php" method="post">
-                <h1>Kullanıcı adı ve şifrenizle giriş yapabilirsiniz.</h1>
-                <hr>
-            <table>
-                <tr>
-                    <td>Kullanıcı Adı:</td>
-                    <td><input name="kullanici_adi" type="email" required></td>
-                </tr>
-                <tr>
-                    <td>Şifre:</td>
-                    <td><input name="sifre" type="password" required></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td><input type="submit" value="Giriş Yap"></td>
-                </tr>
-            </form>
-            </table>
+            <?php
+            echo 'İletişim talebiniz alınmıştır. Form Bilgileri: <br> İsim:'.$_POST['isim'].'<br>Mail:'.$_POST['mail'].'<br>Şehir Plaka Kodu:'.$_POST['sehir'].'<br>Cinsiyet:'.$_POST['cinsiyet'].'<br>Mesaj:'.$_POST['mesaj']
+
+
+            ?>
         </div>
         <div class="col-1"></div>
     </div>

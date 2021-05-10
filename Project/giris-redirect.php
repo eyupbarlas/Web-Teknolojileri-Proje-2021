@@ -29,7 +29,7 @@
             <a class="nav-link" href="ilgialanlarim.php">İlgi Alanlarım</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link active" href="girisyap.php">Giriş Yap</a>
+            <a class="nav-link" href="girisyap.php">Giriş Yap</a>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="iletisim.php">İletişim</a>

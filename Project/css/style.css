@@ -4,6 +4,9 @@ nav{
 #icerik{
     margin-top:100px;
 }
+.nav-item{
+    margin-left:10px;
+}
 body{
     background-color:orange;
     font-family: "Times New Roman";
@@ -17,4 +20,7 @@ td{
     padding:15px;
     padding-left:0px;
     padding-right:3px;
+}
+input[type=radio]{
+    margin-right:10px;
 }
