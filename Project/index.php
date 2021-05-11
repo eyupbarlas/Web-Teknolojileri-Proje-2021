@@ -41,43 +41,18 @@
     <div align="center" class="row">
         <div class="col-1"></div>
         <div id="content-col" style="background-color:#f8bf4f" class="col">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
-            eu augue sit amet diam pretium iaculis eu a mi. Sed vitae nisl auctor,
-            faucibus neque vitae, congue ipsum. Interdum et malesuada fames ac ante
-            ipsum primis in faucibus. Mauris in velit suscipit, bibendum lacus et,
-            egestas felis. Nunc a mattis urna, quis elementum ante. Curabitur
-            condimentum tincidunt metus, eu ornare nunc congue in. Proin tristique,
-            odio sit amet posuere facilisis, urna risus rutrum mi, ut pharetra urna
-            enim nec urna. Vestibulum non leo non orci porttitor sollicitudin. Sed
-            viverra urna sed cursus suscipit. Vestibulum aliquet, arcu eu porta porttitor,
-            mauris mi dapibus massa, sit amet ullamcorper lacus sem et sapien. Nullam id rhoncus
-            ante, quis pellentesque urna. Phasellus quis arcu bibendum, sodales mauris quis,
-            eleifend nulla. Duis eu mattis lorem. Mauris faucibus arcu sed tempus elementum.
-
-            Quisque aliquam a augue eget fringilla. Donec sed congue massa. Cras ut
-            eleifend sapien. Curabitur vel tortor lacinia, hendrerit turpis sit amet,
-            ullamcorper erat. Nullam vestibulum elit ipsum, vitae hendrerit sem
-            fermentum a. Vestibulum pulvinar scelerisque quam, in bibendum metus
-            convallis sit amet. Donec ultrices vehicula lectus, ac euismod nisi
-            fringilla et. Vivamus efficitur leo et nunc blandit, vitae maximus
-            orci accumsan. Sed scelerisque dolor vitae enim vestibulum, ut malesuada
-            justo egestas. Nullam euismod feugiat libero, eu porta mauris feugiat
-            quis. Ut quis justo ultrices, pellentesque quam non, volutpat odio.
-            Pellentesque nec scelerisque erat.
-
-            Maecenas bibendum ex metus, eu pellentesque dolor elementum vitae.
-            Sed rutrum neque quis quam mattis, vel molestie purus eleifend.
-            Nam at ipsum vel augue auctor sollicitudin. Aliquam suscipit augue
-            purus, non ultricies turpis malesuada nec. Vestibulum non mattis
-            tellus. Donec sodales justo ac dui accumsan, eu eleifend sapien
-            faucibus. Sed quis magna at nunc blandit maximus. Suspendisse ex
-            velit, imperdiet non augue id, convallis gravida nibh. Quisque
-            vulputate sapien sed consectetur pharetra. Vivamus convallis nunc
-            felis, ut imperdiet velit aliquam eget. Nam finibus tellus ut
-            ornare viverra. In purus dui, vehicula at pellentesque sit amet,
-            faucibus at felis. Ut maximus risus facilisis arcu maximus commodo.
-            Proin nulla orci, maximus eu vehicula vel, scelerisque non leo.
-            Pellentesque mollis pellentesque erat, vitae pulvinar sapien gravida at.
+            <h1>Hakkında</h1>
+            <p>
+                Merhabalar, ben Eyüp Barlas. Sakarya Üniversitesinde Bilgisayar Mühendisliği bölümünde okumaktayım. Hobilerim arasında basketbol oynamak, kitap okumak ve kendi kişisel projelerimi geliştirmek bulunuyor.
+            </p>
+            <img width="40%" src="img/basketbol.jfif" alt="basketbol">
+            <p>
+                Ürettiğim kişisel projelerimi genellikle açık kaynak olarak paylaşıyorum. Ürettiğim projeler genellikle web uygulamaları ve botlar üzerine olmakta. Projelerime ulaşmak için Github adresim: <a href="https://github.com/eyupbarlas/BzzmansProjects" target="_blank">https://github.com/eyupbarlas/BzzmansProjects</a>
+            </p>
+            <img width="40%" src="img/code.jfif" alt="coding">
+            <p>
+                Bu web sitesi ise güzel ilimiz Elazığ'ı, diğer adıyla Gakgoşlar Diyarı'nı tanıtan ve güzelliklerini anlatmaktadır.
+            </p>
         </div>
         <div class="col-1"></div>
     </div>

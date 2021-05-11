@@ -24,3 +24,9 @@ td{
 input[type=radio]{
     margin-right:10px;
 }
+a{
+    text-decoration:none;
+}
+p{
+    margin-top:10px;
+}
