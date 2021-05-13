@@ -5,7 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Anasayfa</title>
+    <title>İletişim</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
@@ -24,7 +24,7 @@
             <a class="nav-link" href="sehrim.php">Şehrim</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="mirasimiz.php">Mirasımız</a>
+            <a class="nav-link" href="takimimiz.php">Takımımız</a>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="ilgialanlarim.php">İlgi Alanlarım</a>
@@ -45,7 +45,7 @@
             <form name="iletisim-formu" action="iletisim-redirect.php" method="post" onsubmit="return kontrol()">
                 <h1>Aşağıdaki formu doldurarak iletişime geçebilirsiniz.</h1>
                 <hr>
-                <table id="iletisim-tablo">
+                <table align="center" id="iletisim-tablo">
                     <tr>
                         <td class="etiket">İsminiz:</td>
                         <td><input name="isim" type="text"></td>
