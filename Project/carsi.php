@@ -23,7 +23,7 @@
             <a class="nav-link" href="sehrim.php">Şehrim</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="takimimiz.php">Mirasımız</a>
+            <a class="nav-link" href="takimimiz.php">Takımımız</a>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="ilgialanlarim.php">İlgi Alanlarım</a>

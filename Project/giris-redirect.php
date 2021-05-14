@@ -23,7 +23,7 @@
             <a class="nav-link" href="sehrim.php">Şehrim</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="takimimiz.php">Mirasımız</a>
+            <a class="nav-link" href="takimimiz.php">Takımımız</a>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="ilgialanlarim.php">İlgi Alanlarım</a>
@@ -42,8 +42,8 @@
         <div class="col-1"></div>
         <div id="content-col" style="background-color:#f8bf4f" class="col">
             <?php
-            if($_POST['kullanici_adi'] =='b1812100001@sakarya.edu.tr' && $_POST['sifre'] == 'b1812100001'){
-                echo "<p>Kullanıcı adınız ve şifreniz doğru.</p> <p>Anasayfaya yönlendiriliyorsunuz.</p>";
+            if($_POST['kullanici_adi'] =='b201210391@sakarya.edu.tr' && $_POST['sifre'] == 'b201210391'){
+                echo "<p>Kullanıcı adınız ve şifreniz doğru.</p> <p>Hoşgeldiniz 'b201210391'</p><p>Anasayfaya yönlendiriliyorsunuz.</p>";
                 header("refresh:3;url=index.php");
             } else{
                 echo "<p>Giriş bilgileriniz yanlış.</p> <p>Giriş sayfasına yönlendiriliyorsunuz.</p>";
