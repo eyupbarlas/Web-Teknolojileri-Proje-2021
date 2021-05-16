@@ -1,86 +1,157 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Özgeçmiş</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
 </head>
-<body>
-<nav>
-    <ul class="nav nav-pills justify-content-center">
-        <li class="nav-item">
-            <a class="nav-link" href="/">Hakkında</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link active" href="cv.php">CV</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="sehrim.php">Şehrim</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="takimimiz.php">Takımımız</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="ilgialanlarim.php">İlgi Alanlarım</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="girisyap.php">Giriş Yap</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="iletisim.php">İletişim</a>
-        </li>
-    </ul>
-</nav>
 
-<div id="icerik" class="container" align="center">
-    <div align="center" class="row">
-        <div class="col-1"></div>
-        <div id="content-col" style="background-color:#f8bf4f" class="col">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
-            eu augue sit amet diam pretium iaculis eu a mi. Sed vitae nisl auctor,
-            faucibus neque vitae, congue ipsum. Interdum et malesuada fames ac ante
-            ipsum primis in faucibus. Mauris in velit suscipit, bibendum lacus et,
-            egestas felis. Nunc a mattis urna, quis elementum ante. Curabitur
-            condimentum tincidunt metus, eu ornare nunc congue in. Proin tristique,
-            odio sit amet posuere facilisis, urna risus rutrum mi, ut pharetra urna
-            enim nec urna. Vestibulum non leo non orci porttitor sollicitudin. Sed
-            viverra urna sed cursus suscipit. Vestibulum aliquet, arcu eu porta porttitor,
-            mauris mi dapibus massa, sit amet ullamcorper lacus sem et sapien. Nullam id rhoncus
-            ante, quis pellentesque urna. Phasellus quis arcu bibendum, sodales mauris quis,
-            eleifend nulla. Duis eu mattis lorem. Mauris faucibus arcu sed tempus elementum.
+<body style="background-color: lightblue;">
+    <nav>
+        <ul class="nav nav-pills justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link" href="/">Hakkında</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="cv.php">CV</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="sehrim.php">Şehrim</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="takimimiz.php">Takımımız</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="ilgialanlarim.php">İlgi Alanlarım</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="girisyap.php">Giriş Yap</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="iletisim.php">İletişim</a>
+            </li>
+        </ul>
+    </nav>
 
-            Quisque aliquam a augue eget fringilla. Donec sed congue massa. Cras ut
-            eleifend sapien. Curabitur vel tortor lacinia, hendrerit turpis sit amet,
-            ullamcorper erat. Nullam vestibulum elit ipsum, vitae hendrerit sem
-            fermentum a. Vestibulum pulvinar scelerisque quam, in bibendum metus
-            convallis sit amet. Donec ultrices vehicula lectus, ac euismod nisi
-            fringilla et. Vivamus efficitur leo et nunc blandit, vitae maximus
-            orci accumsan. Sed scelerisque dolor vitae enim vestibulum, ut malesuada
-            justo egestas. Nullam euismod feugiat libero, eu porta mauris feugiat
-            quis. Ut quis justo ultrices, pellentesque quam non, volutpat odio.
-            Pellentesque nec scelerisque erat.
-
-            Maecenas bibendum ex metus, eu pellentesque dolor elementum vitae.
-            Sed rutrum neque quis quam mattis, vel molestie purus eleifend.
-            Nam at ipsum vel augue auctor sollicitudin. Aliquam suscipit augue
-            purus, non ultricies turpis malesuada nec. Vestibulum non mattis
-            tellus. Donec sodales justo ac dui accumsan, eu eleifend sapien
-            faucibus. Sed quis magna at nunc blandit maximus. Suspendisse ex
-            velit, imperdiet non augue id, convallis gravida nibh. Quisque
-            vulputate sapien sed consectetur pharetra. Vivamus convallis nunc
-            felis, ut imperdiet velit aliquam eget. Nam finibus tellus ut
-            ornare viverra. In purus dui, vehicula at pellentesque sit amet,
-            faucibus at felis. Ut maximus risus facilisis arcu maximus commodo.
-            Proin nulla orci, maximus eu vehicula vel, scelerisque non leo.
-            Pellentesque mollis pellentesque erat, vitae pulvinar sapien gravida at.
+    <div id="icerik" class="container" align="center">
+        <div align="center" class="row">
+            <div class="col-1"></div>
+            <div id="content-col" style="background-color:#f8bf4f" class="col">
+                <aside>
+                    <header>
+                        <h1>Eyüp Barlas</h1>
+                        <p>Email: <a href="mailto:eyupbarlas2134@gmail.com"><i class="fas fa-envelope fa-2x"></i></a></p>
+                        <p>LinkedIn: <a target="_blank" href="https://linkedin.com/in/eyüp-barlas-669932193"><i class="fab fa-linkedin fa-2x"></i></a></p>
+                        <p>GitHub: <a target="_blank" href="https://github.com/eyupbarlas/"><i class="fab fa-github fa-2x"></i></a></p>
+                    </header>
+                </aside>
+                <main>
+                    <section id="sec1">
+                        <h2>Çalışma Geçmişim</h2>
+                        <ul>
+                            <li>
+                                Çalışma Geçmişim
+                                <ul>
+                                    <li>
+                                        2020-07 / 2021-11<br>
+                                        Yazılım Geliştirme Stajyeri, ELTEMTEK
+                                        <ul>
+                                            <li>
+                                                Web API Geliştirme
+                                            </li>
+                                            <li>
+                                                Büyük boyutlardaki verinin, data manipülasyon araçlarıyla analiz edilmesi.
+                                            </li>
+                                            <li>
+                                                Veritabanı yönetimi(MongoDB)
+                                            </li>
+                                            <li>
+                                                SocketIO ile haberleşme uygulaması geliştirme.
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </section>
+                    <section>
+                        <ul>
+                            <li>
+                                Eğitim
+                                <ul>
+                                    <li>
+                                        2019-09 / 2023-06<br>
+                                        Sakarya Üniversitesi Bilgisayar Mühendisliği
+                                        <ul>
+                                            <li>
+                                                3.30 GPA
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </section>
+                    <section>
+                        <ul>
+                            <li>
+                                Beceriler
+                                <ul>
+                                    <li>
+                                        API tasarım bilgisi
+                                    </li>
+                                    <li>
+                                        Agile yazılım geliştirme
+                                    </li>
+                                    <li>
+                                        Teknik dokümantasyon oluşturma
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </section>
+                    <section>
+                        <ul>
+                            <li>
+                                Teknik Beceriler
+                                <ul>
+                                    <li>
+                                        Python, Java, C++, C#, C
+                                    </li>
+                                    <li>
+                                        Flask Framework
+                                    </li>
+                                    <li>
+                                        Selenium Web Automation
+                                    </li>
+                                    <li>
+                                        Web API
+                                    </li>
+                                    <li>
+                                        MongoDB, PostgreSQL
+                                    </li>
+                                    <li>
+                                        Python ile Veri Analizi ve Veri Manipülasyonu
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </section>
+                </main>
+            </div>
+            <div class="col-1"></div>
         </div>
-        <div class="col-1"></div>
     </div>
-</div>
 </body>
+
 </html>
