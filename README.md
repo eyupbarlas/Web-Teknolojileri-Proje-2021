@@ -5,7 +5,7 @@
 
 Site Linki : http://b201210391.infinityfreeapp.com
 
-Gakgoşlar Diyarı ,sayfa sahibini(Eyüp Barlas) ve Elazığ şehrini tanıtan bir web sitesidir. Sitenin ziyaretçileri güzel ilimiz Elazığ’ı daha yakından tanıyacak, kültürel miraslarını öğrenecek ve şehrin güzelliklerini görebilecektir. Ziyaretçiler bunların yanı sıra, sayfa sahibi Eyüp Barlas hakkında onu tanıtan bilgiler, özgeçmişi gibi konularda bilgi edinebilecektir. Kullanıcılar istedikleri takdirde siteye kayıt olabilir veya sayfa yönetimi ile iletişime geçmek için iletişim bölümünden mail aracılığı ile bizlere ulaşabilir. Sayfa yöneticisi, siteye üye olanların bilgilerine ulaşma ve içerik düzenleme gibi yetkilere sahiptir.
+Gakgoşlar Diyarı ,sayfa sahibini(Eyüp Barlas) ve Elazığ şehrini tanıtan bir web sitesidir. Sitenin ziyaretçileri güzel ilimiz Elazığ’ı daha yakından tanıyacak, kültürel miraslarını öğrenecek ve şehrin güzelliklerini görebilecektir. Ziyaretçiler bunların yanı sıra, sayfa sahibi Eyüp Barlas hakkında onu tanıtan bilgiler, özgeçmişi gibi konularda bilgi edinebilecektir. Kullanıcılar istedikleri takdirde siteye giriş yapabilir veya sayfa yönetimi ile iletişime geçmek için iletişim bölümünden bizlere ulaşabilir. Sayfa yöneticisi, içerik düzenleme yetkisine sahiptir.
 
 Proje kodlarına ulaşmak için [tıklayınız](https://github.com/eyupbarlas/Web-Teknolojileri-Proje-2021/tree/main/Project "Gakgoşlar Diyarı").
 Dökümantasyonlara ulaşmak için [tıklayınız](https://github.com/eyupbarlas/Web-Teknolojileri-Proje-2021/tree/main/Project/docs "Docs").
